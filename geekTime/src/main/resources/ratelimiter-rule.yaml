@@ -1,0 +1,8 @@
+configs:
+  - appId: app1
+    limits:
+      - api: /v1/user
+        limit: 100
+        unit: 60
+      - api: /v1/role
+        limit: 50
